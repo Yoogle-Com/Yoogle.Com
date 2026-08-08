@@ -4,82 +4,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoogle.com - PACS Automation Services | Yugal Verma</title>
+    <!-- Tailwind CSS for Auto-fit Responsive Layout -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1e293b;
+            border-radius: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 8px;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-    <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-md">
-        🚀 <span class="bg-blue-600 px-2 py-0.5 rounded text-xs uppercase font-bold">New Version</span> 
-        PACS Auto-Tools v2.1 रिलीज़ हो गया है!
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white text-xs sm:text-sm py-2.5 px-4 text-center font-medium shadow-md">
+        🚀 <span class="bg-blue-600 px-2 py-0.5 rounded text-xs uppercase font-bold mr-1">New Update</span> 
+        PACS Auto-Tools v2.1 रिलीज़ हो गया है! नीचे दिए गए मॉड्यूल्स से डायरेक्ट EXE डाउनलोड करें।
     </div>
 
-    <nav class="bg-white sticky top-0 z-50 border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
-            <div class="flex items-center space-x-3">
-                <div class="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center text-white font-black text-2xl border-2 border-cyan-300">Y</div>
-                <div>
-                    <a href="#" class="text-2xl font-black text-slate-900">Yoogle<span class="text-blue-600">.com</span></a>
-                    <p class="text-xs text-slate-500 font-semibold -mt-1">PACS Automation Solutions</p>
+    <!-- NAVIGATION BAR WITH EXACT BRAND IMAGE LOGO -->
+    <nav class="bg-white sticky top-0 z-50 border-b border-slate-200 shadow-sm py-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 sm:h-24">
+                
+                <!-- FULL BRAND IMAGE LOGO (yoogle.png) -->
+                <div class="flex items-center">
+                    <a href="#">
+                        <img src="yoogle.png" alt="Yoogle.com - Yugal Verma" class="h-14 sm:h-20 object-contain hover:opacity-95 transition">
+                    </a>
                 </div>
+
+                <!-- RIGHT CONTACT BUTTON -->
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/916263777500?text=Hello%20Yugal%20Sir" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl font-bold text-xs sm:text-sm flex items-center shadow-md transition">
+                        <i class="fa-brands fa-whatsapp text-lg sm:text-xl mr-2"></i> 6263777500
+                    </a>
+                </div>
+
             </div>
-            <a href="https://wa.me/916263777500" target="_blank" class="bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold text-sm flex items-center">
-                <i class="fa-brands fa-whatsapp mr-2"></i> 6263777500
-            </a>
         </div>
     </nav>
 
-    <section class="py-16 bg-gradient-to-b from-blue-50 to-white text-center lg:text-left">
-        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-                <h1 class="text-3xl sm:text-5xl font-black text-slate-900 leading-tight">
-                    छ.ग. के PACS (सेवा समितियो) के लिए <br>
-                    <span class="text-blue-600">स्मार्ट वर्क और ऑटोमेशन साफ्ट्वेयर </span>
-                </h1>
-                <p class="text-slate-600 my-6 text-base sm:text-lg">
-                    कार्यालय के काम के दबाव और समय की कमी से मुक्ति पाएं! ERP Portal, PMFBY (फसल बीमा) Portal और पंजीयक (ब्याज अनुदान) पोर्टल में घंटों का काम मिनटों में 100% शुद्धता के साथ पूरा करें।
-                </p>
-                <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-                    <a href="#download" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-4 rounded-xl shadow-lg">
-                        <i class="fa-solid fa-download mr-2"></i> लेटेस्ट EXE डाउनलोड करें
-                    </a>
+    <!-- HERO SECTION WITH FIXED SPACING & TYPOGRAPHY -->
+    <section class="relative bg-gradient-to-b from-blue-50/60 via-slate-50 to-white py-10 lg:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                
+                <!-- LEFT CONTENT AREA -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1.5 rounded-full">
+                        <i class="fa-solid fa-bolt text-amber-500"></i>
+                        <span>100% सटीक और सुरक्षित ऑटोमेशन टूल</span>
+                    </div>
+
+                    <!-- HEADINGS WITH PROPER LINE-HEIGHT & SPACING -->
+                    <div class="space-y-2">
+                        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 leading-snug">
+                            छ.ग. के PACS (सेवा समितियों) के लिए
+                        </h1>
+                        <h2 class="text-2xl sm:text-4xl font-black text-blue-600 leading-snug pt-2">
+                            स्मार्ट वर्क और ऑटोमेशन साफ्टवेयर
+                        </h2>
+                    </div>
+
+                    <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                        कार्यालय के काम के दबाव और समय की कमी से मुक्ति पाएं! ERP Portal, PMFBY (फसल बीमा) Portal और पंजीयक (ब्याज अनुदान) पोर्टल में घंटों का काम मिनटों में 100% शुद्धता के साथ पूरा करें।
+                    </p>
+
+                    <!-- BRAND PROMOTION MATTERS (HIGHLIGHT BOX) -->
+                    <div class="bg-emerald-50 border-2 border-emerald-200 rounded-2xl p-5 text-left space-y-2.5 shadow-sm">
+                        <h4 class="font-black text-emerald-900 text-base flex items-center">
+                            <i class="fa-solid fa-star text-amber-500 mr-2"></i> Yoogle Automation की विशेषताएं
+                        </h4>
+                        <ul class="space-y-2 text-xs sm:text-sm font-medium text-slate-800">
+                            <li class="flex items-start"><i class="fa-solid fa-tag text-emerald-600 mr-2.5 mt-0.5"></i> <span><strong>सबसे कम कीमत पर उपलब्ध</strong></span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-circle-check text-emerald-600 mr-2.5 mt-0.5"></i> <span><strong>कोई तामझाम नही</strong> - अलग से कोई साफ्टवेयर डाउनलोड करने की जरुरत नही</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-desktop text-emerald-600 mr-2.5 mt-0.5"></i> <span><strong>MS Office 2007</strong> में भी आसानी से वर्क करेगा</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-file-excel text-emerald-600 mr-2.5 mt-0.5"></i> <span><strong>Simple Excel File</strong> - कोई ट्रेनिंग की जरुरत नही</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-box-open text-emerald-600 mr-2.5 mt-0.5"></i> <span><strong>अपनी आवश्यकता अनुसार अलग-अलग साफ्टवेयर खरीदें</strong>, कोई लम्बा या महंगा पैकेज लेने की जरुरत नही</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- EXE UPLOAD ADMIN ACTION BUTTON -->
+                    <div class="pt-2">
+                        <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/new" target="_blank" class="inline-flex items-center bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl shadow-md transition">
+                            <i class="fa-solid fa-cloud-arrow-up text-cyan-400 mr-2.5 text-base"></i> Browse / Upload Updated EXE (Admin Portal)
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="bg-slate-900 text-white p-8 rounded-3xl shadow-2xl border border-slate-800">
-                <h3 class="font-bold text-xl mb-4 text-blue-400">Yoogle PACS Suite Active Modules</h3>
-                <div class="space-y-4 text-sm">
-                    <div class="bg-slate-800 p-4 rounded-xl flex justify-between items-center">
-                        <span>ERP Bulk Automation Tool</span>
-                        <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold">Ready</span>
-                    </div>
-                    <div class="bg-slate-800 p-4 rounded-xl flex justify-between items-center">
-                        <span>PMFBY Insurance Module</span>
-                        <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold">Active</span>
-                    </div>
-                    <div class="bg-slate-800 p-4 rounded-xl flex justify-between items-center">
-                        <span>पंजीयक (Panjiyak) Module</span>
-                        <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold">Active</span>
+
+                <!-- RIGHT CONTENT AREA - DETAILED MODULES DISPLAY -->
+                <div class="lg:col-span-6">
+                    <div class="bg-slate-900 text-white rounded-3xl p-6 sm:p-7 shadow-2xl border border-slate-800 space-y-5">
+                        
+                        <div class="border-b border-slate-800 pb-3 flex justify-between items-center">
+                            <h3 class="text-lg font-black text-cyan-400 tracking-wide">
+                                Yoogle.Com मे उपलब्ध साफ्टवेयर
+                            </h3>
+                            <span class="bg-blue-600/30 text-blue-300 text-xs px-2.5 py-1 rounded-full font-bold border border-blue-500/30">v2026 Ready</span>
+                        </div>
+
+                        <!-- MODULE LISTING WITH EXACT USER DETAILS -->
+                        <div class="space-y-4 max-h-[580px] overflow-y-auto pr-2 custom-scrollbar text-left text-xs sm:text-sm">
+                            
+                            <!-- 1. ERP Portal -->
+                            <div class="bg-slate-800/90 p-4 rounded-xl border border-slate-700/80 space-y-2">
+                                <h4 class="font-bold text-blue-300 text-sm flex items-center">
+                                    <i class="fa-solid fa-server mr-2 text-blue-400"></i> ERP Portal के अंतर्गत समस्त जरूरी माड्युल:
+                                </h4>
+                                <ul class="pl-6 space-y-1 text-slate-300 list-disc font-medium">
+                                    <li>ERP Cash Entry</li>
+                                    <li>ERP Share Entry</li>
+                                    <li>ERP Fertilizer / SEED / Pesticide Entry</li>
+                                    <li>ERP Interest Entry (Bima Amount)</li>
+                                    <li>ERP Linking Wasuli (Paddy)</li>
+                                </ul>
+                                <div class="pt-2">
+                                    <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/latest/download/ERP_Bulk_Tool.exe" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg inline-flex items-center">
+                                        <i class="fa-solid fa-download mr-1.5"></i> ERP Module EXE डाउनलोड
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 2. PMFBY Module -->
+                            <div class="bg-slate-800/90 p-4 rounded-xl border border-slate-700/80 space-y-2">
+                                <h4 class="font-bold text-cyan-300 text-sm flex items-center">
+                                    <i class="fa-solid fa-shield-halved mr-2 text-cyan-400"></i> PMFBY Module Automation (प्रधानमंत्री फसल बीमा योजना):
+                                </h4>
+                                <ul class="pl-6 space-y-1 text-slate-300 list-disc font-medium">
+                                    <li>KCC Beneficiary Automation</li>
+                                    <li>New Member Entry Automation</li>
+                                </ul>
+                                <div class="pt-2">
+                                    <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/latest/download/PMFBY_Tool.exe" class="bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg inline-flex items-center">
+                                        <i class="fa-solid fa-download mr-1.5"></i> PMFBY Module EXE डाउनलोड
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 3. Panjiyak Module -->
+                            <div class="bg-slate-800/90 p-4 rounded-xl border border-slate-700/80 space-y-2">
+                                <h4 class="font-bold text-amber-300 text-sm flex items-center">
+                                    <i class="fa-solid fa-file-signature mr-2 text-amber-400"></i> पंजीयक माड्युल (ब्याज अनुदान) Automation:
+                                </h4>
+                                <ul class="pl-6 space-y-1 text-slate-300 list-disc font-medium">
+                                    <li>Panjiyak Cash Entry <span class="text-amber-400 text-xs">(Farmer ID & Saving Account Search Special)</span></li>
+                                    <li>Panjiyak Bima Entry</li>
+                                </ul>
+                                <div class="pt-2">
+                                    <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/latest/download/Panjiyak_Tool.exe" class="bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg inline-flex items-center">
+                                        <i class="fa-solid fa-download mr-1.5"></i> पंजीयक Module EXE डाउनलोड
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 4. KRP Automation -->
+                            <div class="bg-slate-800/90 p-4 rounded-xl border border-slate-700/80 space-y-2">
+                                <h4 class="font-bold text-emerald-300 text-sm flex items-center">
+                                    <i class="fa-solid fa-wheat-awn mr-2 text-emerald-400"></i> किसान ऋण पोर्टल (KRP) Automation Software:
+                                </h4>
+                                <ul class="pl-6 space-y-1 text-slate-300 list-disc font-medium">
+                                    <li>Loan Entry (KCC Kharif & Rabi)</li>
+                                    <li>Claim Entry IS & PRI</li>
+                                </ul>
+                                <div class="pt-2">
+                                    <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/latest/download/KRP_Tool.exe" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg inline-flex items-center">
+                                        <i class="fa-solid fa-download mr-1.5"></i> KRP Module EXE डाउनलोड
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 5. Loan Application Software -->
+                            <div class="bg-slate-800/90 p-4 rounded-xl border border-slate-700/80 space-y-2">
+                                <h4 class="font-bold text-indigo-300 text-sm flex items-center">
+                                    <i class="fa-solid fa-folder-open mr-2 text-indigo-400"></i> ऋण आवेदन साफ्टवेयर:
+                                </h4>
+                                <ul class="pl-6 space-y-1 text-slate-300 list-disc font-medium">
+                                    <li>कृषक ऋण आवेदन फ़ोल्डर निर्माण आटोमेटेड</li>
+                                    <li>NCL Form Print</li>
+                                    <li>कृषक बीमा पावती सहमती / असहमती</li>
+                                    <li>आटोमेटेड नगद समायोजन प्रिंट</li>
+                                    <li>आटोमेटेड शेयर समायोजन प्रिंट</li>
+                                    <li>सभी पोर्टल के लिये आटोमेशन डाटा रेडी</li>
+                                </ul>
+                                <div class="pt-2">
+                                    <a href="https://github.com/Yoogle-Com/Yoogle.Com/releases/latest/download/Rin_Awedan_Tool.exe" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg inline-flex items-center">
+                                        <i class="fa-solid fa-download mr-1.5"></i> ऋण आवेदन EXE डाउनलोड
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- EXTRA FEATURES SUMMARY -->
+                            <div class="p-3 bg-gradient-to-r from-blue-950 to-indigo-950 rounded-xl border border-blue-800 text-xs text-blue-200 font-semibold leading-relaxed">
+                                <i class="fa-solid fa-circle-info text-cyan-400 mr-1"></i> इसके साथ ही इस साफ्टवेयर मे कर्मचारी वेतन बील, सिलक बाकी आटोमेटेड, PACS & Farmers All Data In One Click <span class="text-emerald-400 font-bold">(2023 से सफलता पूर्वक संचालित)</span>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <section id="download" class="py-16 bg-slate-900 text-white text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-black mb-4">लेटेस्ट Yoogle EXE टूल डाउनलोड करें</h2>
-            <p class="text-slate-300 mb-8">यहाँ से हमेशा नवीनतम वर्शन का अपडेटेड सेटअप डाउनलोड करें।</p>
-            <a href="https://github.com/yugalverma/pacs-automation/releases/latest/download/Yoogle_PACS_Suite.exe" class="bg-blue-600 hover:bg-blue-500 text-white font-black text-lg px-8 py-4 rounded-2xl shadow-xl inline-block">
-                <i class="fa-solid fa-download mr-2"></i> Download Yoogle_PACS_Suite.exe
-            </a>
-        </div>
-    </section>
-
+    <!-- FOOTER SECTION -->
     <footer class="bg-slate-950 text-slate-400 py-8 text-center text-xs border-t border-slate-800">
-        © 2026 Yoogle.com Automation Services | Developer: Yugal Verma (Mob: 6263777500)
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="text-sm font-bold text-white">Yoogle.com - PACS Automation Services</p>
+            <p>© 2026 Yoogle.com | Founder & Chief Developer: Yugal Verma (Mob: 6263777500)</p>
+        </div>
     </footer>
 
-    <a href="https://wa.me/916263777500" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50">
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/916263777500?text=Namaste%20Yugal%20Sir" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-emerald-600 transition z-50">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
